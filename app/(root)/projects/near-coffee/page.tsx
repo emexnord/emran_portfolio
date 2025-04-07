@@ -17,14 +17,12 @@ export default function UzxPage() {
   return (
     <MaxWidthWrapper className="py-10 md:py-20">
       <h1 className="text-4xl font-bold">
-        ResearchSync - The Ultimate Collaboration Tool for Research Teams
+        Near Coffee - A promotion Website to a new Ethiopian coffee brand
       </h1>
       <p className="text-muted-foreground mt-2 mb-8 tracking-wide max-w-3xl">
-        This is a powerful platform designed to make research easier and more
-        collaborative. It helps teams manage tasks, collect and analyze data,
-        and store all their resources in one place. Additionaly the platform
-        allows users to create and distribute surveys with the help of AI,
-        collect and analyze responses, and generate actionable insights.
+        This is an elegant and modern website designed to promote a new
+        Ethiopian coffee brand called Near coffee. The website features a clean
+        and minimalist design.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <Link href="#">
@@ -32,46 +30,19 @@ export default function UzxPage() {
             <CardHeader className="py-3">
               <CardTitle>Frontend</CardTitle>
               <CardDescription className="py-2">
-                Used Next.js, Tailwind CSS, and shadcn/ui to create a responsive
+                Used React, Plain CSS, and Material UI to create a responsive
                 and user-friendly interface. The design was created in Figma and
-                implemented in typescript. Additionaly we used Motion for
-                animations and transitions.
+                implemented in javascript.
               </CardDescription>
             </CardHeader>
             <CardFooter className="*:mr-2 *:mb-2 flex flex-wrap">
-              <Badge variant="secondary">Next.js</Badge>
-              <Badge variant="secondary">Tailwind CSS</Badge>
-              <Badge variant="secondary">Motion</Badge>
-              <Badge variant="secondary">shadcn/ui</Badge>
-            </CardFooter>
-          </Card>
-        </Link>
-        <Link href="#">
-          <Card className="group h-full">
-            <CardHeader className="py-3">
-              <CardTitle>Backend</CardTitle>
-              <CardDescription className="py-2">
-                Used Nest.js, Mongodb, and AWS to create a scalable and secure
-                backend.
-              </CardDescription>
-            </CardHeader>
-            <CardFooter className="*:mr-2 *:mb-2 flex flex-wrap">
-              <Badge variant="secondary">Nest.js</Badge>
-              <Badge variant="secondary">MongoDb</Badge>
-              <Badge variant="secondary">AWS</Badge>
-              <Badge variant="secondary">Docker</Badge>
+              <Badge variant="secondary">React</Badge>
+              <Badge variant="secondary">CSS</Badge>
+              <Badge variant="secondary">Material UI</Badge>
             </CardFooter>
           </Card>
         </Link>
       </div>
-      <p className="text-muted-foreground my-8 tracking-wide max-w-3xl">
-        In this project, I was responsible for the backend development,
-        including the implementation of the database and API endpoints. I also
-        worked on the frontend development in the integration of the API and
-        implementation of the AI survey generator, which allows users to create
-        and distribute surveys with the help of AI. The AI survey generator
-        collects and analyzes responses, and generates actionable insights.
-      </p>
       <Card className="group h-full mt-8">
         <div className="p-4">
           <div className="overflow-hidden rounded-lg">
@@ -81,7 +52,7 @@ export default function UzxPage() {
               width={1600}
               height={900}
               quality={100}
-              src="/projects/research_sync1.png"
+              src="/projects/near_coffee3.png"
             />
           </div>
         </div>
@@ -97,7 +68,7 @@ export default function UzxPage() {
                   width={1280}
                   height={832}
                   quality={100}
-                  src="/projects/research_sync.png"
+                  src="/projects/near_coffee.png"
                 />
               </div>
             </div>
@@ -137,7 +108,7 @@ export default function UzxPage() {
               width={1600}
               height={900}
               quality={100}
-              src="/projects/research_sync1.png"
+              src="/projects/near_coffee2.png"
             />
           </div>
         </div>

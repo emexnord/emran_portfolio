@@ -46,7 +46,7 @@ export default function Navbar() {
           </ContactForm>
           <div className="flex gap-1">
             <ModeToggle />
-            <MyCommandDialog />
+            {/* <MyCommandDialog /> */}
           </div>
         </div>
       </nav>

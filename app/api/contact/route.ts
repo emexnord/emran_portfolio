@@ -1,10 +1,9 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import emailjs from "@emailjs/browser";
 
 export async function POST(req: Request) {
-  const values = await req.json();
-  const { email, subject, message } = values;
-
+  const { email, subject, message } = await req.json();
   const transporter = nodemailer.createTransport({
     host: "smtp.seznam.cz",
     port: 465,

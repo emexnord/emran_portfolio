@@ -23,10 +23,10 @@ export const NAVIGATION = [
     title: "About",
     href: "/about",
   },
-  {
-    title: "Blog",
-    href: "/blog",
-  },
+  // {
+  //   title: "Blog",
+  //   href: "/blog",
+  // },
   //contact is included in the navigation by contact-form.tsx
 ];
 
@@ -78,63 +78,65 @@ export const PROJECTS: Project[] = [
     featured: true,
   },
   {
-    title: "DRIE",
-    description: "Full-stack developer, designer, and creator.",
-    href: "https://drie.cz",
-    image: "/projects/drie-project.png",
-    tags: ["Next.js", "React", "Tailwind CSS", "Framer motion"],
+    title: "Near Coffee Website",
+    description: "A promotion Website to a new Ethiopian coffee brand.",
+    href: "/projects/near-coffee",
+    github: "https://github.com/emrankamil/Near-coffee-website",
+    image: "/projects/near_coffee.png",
+    tags: ["React", "HTML", "CSS"],
   },
   {
-    title: "yogaboskovice",
-    description: "Website for yoga studio in Boskovice.",
-    href: "https://yogaboskovice.cz",
-    image: "/projects/yogaboskovice-project.png",
-    tags: ["Wordpress", "Elementor"],
+    title: "Automated class timetable generator",
+    description:
+      "A backend service for generating class timetables, for schools and universities.",
+    href: "/projects/class_scheduling",
+    github: "https://github.com/emrankamil/class-scheduling-app",
+    image: "/projects/class_scheduling.png",
+    tags: ["Django", "DRF", "PostgresQL", "Algorithms"],
   },
-
-  {
-    title: "uzx-elektro",
-    description: "A website for an company using Loxone technology",
-    href: "https://uzx-elektro.cz",
-    image: "/projects/uzxelektro-project.png",
-    tags: ["Next.js", "Tailwind CSS"],
-  },
-  {
-    title: "uzx-security",
-    description: "A website for a security company.",
-    href: "https://uzx-security.cz",
-    image: "/projects/uzxsecurity-project.png",
-    tags: ["Next.js", "Tailwind CSS"],
-  },
-  {
-    title: "Shortner Tool",
-    description: "Fast and simple URL shortner tool.",
-    href: "https://short.drie.cz",
-    image: "/projects/short-project.png",
-    tags: ["Next.js", "Tailwind CSS", "MongoDB"],
-  },
-  {
-    title: "my-story",
-    description: "Share your stories with the world.",
-    href: "https://story-sharing-app-nu.vercel.app/",
-    github: "https://github.com/swajp/my-story",
-    image: "/projects/mystory-project.png",
-    tags: ["Next.js", "Tailwind CSS", "Framer motion", "Convex"],
-  },
-  {
-    title: "LoRa",
-    description: "LoRa network offered in Boskovice.",
-    href: "https://lora.drie.cz",
-    image: "/projects/lora-project.png",
-    tags: ["Next.js", "Tailwind CSS", "Framer motion"],
-  },
-  {
-    title: "betterUML",
-    description: "Create effectively and easy class diagrams.",
-    href: "https://better-uml.vercel.app",
-    image: "/projects/betteruml-project.png",
-    tags: ["Next.js", "Tailwind CSS", "Framer motion"],
-  },
+  // {
+  //   title: "uzx-elektro",
+  //   description: "A website for an company using Loxone technology",
+  //   href: "https://uzx-elektro.cz",
+  //   image: "/projects/uzxelektro-project.png",
+  //   tags: ["Next.js", "Tailwind CSS"],
+  // },
+  // {
+  //   title: "uzx-security",
+  //   description: "A website for a security company.",
+  //   href: "https://uzx-security.cz",
+  //   image: "/projects/uzxsecurity-project.png",
+  //   tags: ["Next.js", "Tailwind CSS"],
+  // },
+  // {
+  //   title: "Shortner Tool",
+  //   description: "Fast and simple URL shortner tool.",
+  //   href: "https://short.drie.cz",
+  //   image: "/projects/short-project.png",
+  //   tags: ["Next.js", "Tailwind CSS", "MongoDB"],
+  // },
+  // {
+  //   title: "my-story",
+  //   description: "Share your stories with the world.",
+  //   href: "https://story-sharing-app-nu.vercel.app/",
+  //   github: "https://github.com/swajp/my-story",
+  //   image: "/projects/mystory-project.png",
+  //   tags: ["Next.js", "Tailwind CSS", "Framer motion", "Convex"],
+  // },
+  // {
+  //   title: "LoRa",
+  //   description: "LoRa network offered in Boskovice.",
+  //   href: "https://lora.drie.cz",
+  //   image: "/projects/lora-project.png",
+  //   tags: ["Next.js", "Tailwind CSS", "Framer motion"],
+  // },
+  // {
+  //   title: "betterUML",
+  //   description: "Create effectively and easy class diagrams.",
+  //   href: "https://better-uml.vercel.app",
+  //   image: "/projects/betteruml-project.png",
+  //   tags: ["Next.js", "Tailwind CSS", "Framer motion"],
+  // },
 ];
 
 export const FOOTER_PAGES = [
@@ -249,7 +251,7 @@ export const GLOBAL_LINK = {
   description:
     "Me and my friends created an innovative project to give highschool students a chance to learn from top students from all universties in Ethiopia.We are creating a platform where students can learn from each other and share their knowledge.",
   href: "#",
-  image: "/projects/global_link.png",
+  image: "/projects/global_link1.png",
   tags: ["React Native", "Supabase", "Next.js", "Motion"],
 };
 
