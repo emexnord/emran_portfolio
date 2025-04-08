@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 import { NAVIGATION } from "@/config";
 import { cn } from "@/lib/utils";
 import { ContactForm } from "./contact-form";
-import { MyCommandDialog } from "./my-command-dialog";
+// import { MyCommandDialog } from "./my-command-dialog";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -61,7 +61,7 @@ export default function Navbar() {
           </Link>
           <div>
             <ModeToggle />
-            <MyCommandDialog />
+            {/* <MyCommandDialog /> */}
             <SheetTrigger className="ml-2" asChild>
               <Button
                 variant="outline"

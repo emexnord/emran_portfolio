@@ -47,7 +47,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <p className="pt-8">© {getYear()} swajp</p>
+        <p className="pt-8">© {getYear()}</p>
       </div>
     </footer>
   );
