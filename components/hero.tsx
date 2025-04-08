@@ -36,8 +36,8 @@ export default function Hero() {
         Developer
       </h1>
       <p className="mt-5 max-w-prose text-muted-foreground sm:text-lg">
-        A Full-stack developer and Computer Engineer, who's Passionate about
-        building outstanding websites using the latest web technologies.
+        A Full-stack developer and Computer Engineer, who&apos;s Passionate
+        about building outstanding websites using the latest web technologies.
       </p>
       <div className="flex animate-delay-300 animate-fade-up items-center justify-center gap-4">
         <Link

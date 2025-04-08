@@ -55,8 +55,8 @@ export default function AboutPage() {
           </p>
           <p>
             Currently, I am also exploring the exciting field of machine
-            learning to expand my knowledge and expertise. Let's connect and
-            explore potential collaborations!
+            learning to expand my knowledge and expertise. Let&apos;s connect
+            and explore potential collaborations!
           </p>
         </div>
         <div className="w-full flex justify-center">

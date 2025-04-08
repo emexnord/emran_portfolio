@@ -18,7 +18,7 @@ export default function ProjectStudy() {
     <MaxWidthWrapper className="py-10 md:py-20">
       <h2 className="text-4xl font-bold">Team Projects</h2>
       <p className="text-muted-foreground mt-1 mb-4">
-        Innovative team-based projects I've contributed to.
+        Innovative team-based projects I&apos;ve contributed to.
       </p>
       <div className="flex gap-8 flex-col">
         <Link href={project1.href}>

@@ -10,7 +10,10 @@ export default function GiveStar() {
 
   return (
     <Card className="h-full group">
-      <Link href="https://github.com/emrankamil/emrankamil" target="_blank">
+      <Link
+        href="https://github.com/emrankamil/emran_portfolio"
+        target="_blank"
+      >
         <CardHeader>
           <div className="flex justify-between">
             <div className="flex items-center gap-2 mb-2 text-sm text-muted-foreground">
@@ -22,7 +25,15 @@ export default function GiveStar() {
             </div>
             <ExternalLink size={14} className="text-muted-foreground" />
           </div>
-          <CardTitle>{String(data)} stars</CardTitle>
+          <CardTitle>
+            {data ? (
+              `${String(data)} stars`
+            ) : (
+              <div>
+                <div className="animate-pulse h-5 w-20 bg-primary/20 rounded-lg"></div>
+              </div>
+            )}
+          </CardTitle>
         </CardHeader>
       </Link>
     </Card>
