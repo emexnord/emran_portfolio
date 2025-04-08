@@ -105,7 +105,9 @@ const ExperienceEntry: React.FC<{
 const ExperienceTimeline: React.FC = () => {
   return (
     <MaxWidthWrapper className="mb-16 mt-16 sm:mt-32 flex flex-col items-left justify-center text-left">
-      <h2 className="text-4xl font-bold mb-4">Experience</h2>
+      <h2 className="text-4xl font-bold mb-4" id="experience">
+        Experience
+      </h2>
       <div>
         {experienceData.map((entry, index) => (
           <ExperienceEntry

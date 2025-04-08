@@ -23,11 +23,14 @@ export const NAVIGATION = [
     title: "About",
     href: "/about",
   },
+  {
+    title: "Experience",
+    href: "/#experience",
+  },
   // {
   //   title: "Blog",
   //   href: "/blog",
   // },
-  //contact is included in the navigation by contact-form.tsx
 ];
 
 export const PROJECTS: Project[] = [

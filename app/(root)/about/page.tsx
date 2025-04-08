@@ -62,7 +62,7 @@ export default function AboutPage() {
         <div className="w-full flex justify-center">
           <div className="p-4 border w-fit rounded-lg bg-gradient-to-b from-primary/10 from-60%">
             <Image
-              src="/me_picture2.png"
+              src="/cartoon.me.png"
               className="rounded-lg"
               width={400}
               height={400}

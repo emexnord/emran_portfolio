@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-import emailjs from "@emailjs/browser";
 
 export async function POST(req: Request) {
   const { email, subject, message } = await req.json();
   const transporter = nodemailer.createTransport({
-    host: "smtp.seznam.cz",
-    port: 465,
-    secure: true,
+    // host: "smtp.seznam.cz",
+    // port: 465,
+    // secure: true,
+    service: process.env.SMTP_SERVICE,
     auth: {
       user: process.env.NODEMAILER_USER,
       pass: process.env.NODEMAILER_PASS,
@@ -16,8 +16,8 @@ export async function POST(req: Request) {
 
   try {
     const mail = await transporter.sendMail({
-      from: '"sender@swajp.me" <sender@swajp.me>',
-      to: "me@swajp.me",
+      from: '"sender@emran.me" <sender@emran.me>',
+      to: "emranhi001@gmail.com",
       subject: subject,
       replyTo: email,
       html: `
