@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
     description:
       "Generate survey questions with AI. You can create a survey and share it with your friends.",
     href: "https://survey-generator-ai.vercel.app/",
-    github: "https://github.com/emrankamil/survey_generator_ai",
+    github: "https://github.com/emexnord/survey_generator_ai",
     image: "/projects/survey-generator.png",
     tags: [
       "Next.js 15",
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
     title: "QR code generator",
     description: "QR code generator without registration. Fast and simple.",
     href: "https://emex-qrcode-generator.vercel.app",
-    github: "https://github.com/emrankamil/qrcode-generator",
+    github: "https://github.com/emexnord/qrcode-generator",
     image: "/projects/mujqrkod-project.png",
     tags: ["Next.js", "Tailwind CSS", "shadcn/ui"],
   },
@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
     description:
       "A discord place for Ethiopian developers to show their projects and help each other.",
     href: "https://devtopia-orcin.vercel.app/",
-    github: "https://github.com/emrankamil/devtopia-discord-community",
+    github: "https://github.com/emexnord/devtopia-discord-community",
     image: "/projects/devtopia-project.png",
     tags: ["NextJS", "Tailwind CSS"],
   },
@@ -75,7 +75,7 @@ export const PROJECTS: Project[] = [
     description:
       "E-commerce website for a company selling furniture and home decor.",
     href: "https://www.abduselam-arabianmejlis.com",
-    github: "https://github.com/emrankamil/abduselam-arabian_mejlis-web",
+    github: "https://github.com/emexnord/abduselam-arabian_mejlis-web",
     image: "/projects/abd-mejlis2.png",
     tags: ["Next.js", "React", "Tailwind CSS", "Golang", "MongoDB"],
     featured: true,
@@ -84,7 +84,7 @@ export const PROJECTS: Project[] = [
     title: "Near Coffee Website",
     description: "A promotion Website to a new Ethiopian coffee brand.",
     href: "/projects/near-coffee",
-    github: "https://github.com/emrankamil/Near-coffee-website",
+    github: "https://github.com/emexnord/Near-coffee-website",
     image: "/projects/near_coffee.png",
     tags: ["React", "HTML", "CSS"],
   },
@@ -93,7 +93,7 @@ export const PROJECTS: Project[] = [
     description:
       "A backend service for generating class timetables, for schools and universities.",
     href: "/projects/class_scheduling",
-    github: "https://github.com/emrankamil/class-scheduling-app",
+    github: "https://github.com/emexnord/class-scheduling-app",
     image: "/projects/class_scheduling.png",
     tags: ["Django", "DRF", "PostgresQL", "Algorithms"],
   },
@@ -160,7 +160,7 @@ export const FOOTER_PAGES = [
 export const SOCIALS = [
   {
     title: "Github",
-    href: "https://github.com/emrankamil",
+    href: "https://github.com/emexnord",
   },
   {
     title: "Linkedin",

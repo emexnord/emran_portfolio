@@ -7,7 +7,7 @@ export const GET = async () => {
   noStore();
 
   const res = await fetch(
-    "https://api.github.com/repos/emrankamil/emran_portfolio"
+    "https://api.github.com/repos/emexnord/emran_portfolio"
   );
 
   if (res.ok) {

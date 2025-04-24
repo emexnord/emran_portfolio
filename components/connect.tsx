@@ -22,9 +22,9 @@ export default function Connect() {
             <MailIcon size={18} className="mr-3" />
             emranhi001@gmail.com
           </Link>
-          <Link href="https://github.com/emrankamil" target="_blank">
+          <Link href="https://github.com/emexnord" target="_blank">
             <Github size={18} className="mr-3" />
-            emrankamil
+            emexnord
           </Link>
           <Link href="https://www.linkedin.com/in/emran-kamil/" target="_blank">
             <Linkedin size={18} className="mr-3" />
