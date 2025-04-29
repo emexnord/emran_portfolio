@@ -195,6 +195,10 @@ export const TECH_STACK = [
     href: "https://nestjs.com",
   },
   {
+    title: "Spring Boot",
+    href: "https://docs.spring.io/spring-boot/index.html",
+  },
+  {
     title: "Git",
     href: "https://git-scm.com",
   },
@@ -231,8 +235,8 @@ export const TECH_STACK = [
     href: "https://www.djangoproject.com",
   },
   {
-    title: "Convex",
-    href: "https://convex.dev",
+    title: "kafka",
+    href: "https://kafka.apache.org/documentation/",
   },
   {
     title: "shadcn/ui",
@@ -271,7 +275,7 @@ export const experienceData: ExperienceEntryType[] = [
       "I participate in code reviews, offering feedback to maintain high code standards.",
       "Integrate Stripe for seamless and secure subscription payments.",
     ],
-    skills: ["Nest.js", "TypeScript", "Next.js", "AWS", "Docker", "SEO"],
+    skills: ["Nest.js", "kafka", "Next.js", "AWS", "Docker", "Microservice"],
   },
   {
     date: "Sep 2022 - Nov 2024",
@@ -286,7 +290,7 @@ export const experienceData: ExperienceEntryType[] = [
       "Improved development practices, introducing automated testing and debugging.",
     ],
 
-    skills: ["Next.JS", "Django", "TypeScript", "NestJs", "Supabase", "AWS"],
+    skills: ["Next.JS", "Django", "kafka", "NestJs", "Supabase", "AWS"],
   },
   {
     date: "Jul 2024 - Oct 2024",
@@ -302,7 +306,7 @@ export const experienceData: ExperienceEntryType[] = [
       "Collaborated with developers to create and maintain technical documentation.",
     ],
 
-    skills: ["Golang", "Prisma", "Next.JS", "Prompt engineering", "MongoDB"],
+    skills: ["Golang", "Prisma", "Next.JS", "Prompt engineering", "GRPC"],
   },
   {
     date: "Nov 2023 - Nov 2024",
@@ -316,6 +320,12 @@ export const experienceData: ExperienceEntryType[] = [
       "Successfully passed A2SV’s demanding internal technical interviews, demonstrating readiness to contribute at the highest levels of the industry.",
     ],
 
-    skills: ["Next.JS", "TailwindCSS", "TypeScript", "Restful API"],
+    skills: [
+      "Next.JS",
+      "TailwindCSS",
+      "TypeScript",
+      "Restful API",
+      "Clean Architecture",
+    ],
   },
 ];
